@@ -51,7 +51,7 @@ class Song
       # song.name == song_name
       song_name == song.name
     end
-    song.name
+    # song.name
   end
 
 end
