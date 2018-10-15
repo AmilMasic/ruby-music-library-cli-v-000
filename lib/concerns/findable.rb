@@ -10,7 +10,7 @@ module Concerns
     end
   end
 
-  def create_by_name(name)
+  def create(name)
       # new_object = self.new
     # new_object.name = name
     # new_object
