@@ -4,13 +4,10 @@ class MusicImporter
   def initialize(path)
     # binding.pry
     @path = path
-    @files = []
+    @@files = []
   end
 
-  # def files
-  #   @path.each do |song|
-  #     @files << song
-  #   end
-  #   @files
-  # end
+  def files
+    @@files
+  end
 end
