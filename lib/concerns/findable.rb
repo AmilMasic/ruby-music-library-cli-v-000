@@ -10,12 +10,12 @@ module Concerns
     end
   end
 
-  # def create(name)
-  #   # binding.pry
-  #   new_song = Song.new(song)
-  #   # save
-  #   # new_song.name
-  # end
+  def create(name)
+    # binding.pry
+    new_object = Object.new(name)
+    # save
+    # new_song.name
+  end
 
   def find_or_create_by_name(name)
     if find_by_name(name)
