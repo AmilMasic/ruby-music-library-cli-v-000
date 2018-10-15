@@ -8,7 +8,7 @@ class MusicImporter
   end
 
   def files
-    path.each do |song|
+    @path.each do |song|
       @files << song
     end
     @files
