@@ -4,7 +4,7 @@ class MusicImporter
   def initialize(path)
     # binding.pry
     @path = path
-    @@files = []
+    # @@files = []
   end
 
   def files
