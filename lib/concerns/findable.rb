@@ -12,7 +12,8 @@ module Concerns
 
   def create(name)
     # binding.pry
-    new_object = Artist.new(name)
+    new_object = self.new
+    new_object.name = name
     # save
     # new_song.name
   end
