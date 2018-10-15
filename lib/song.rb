@@ -46,8 +46,8 @@ class Song
     genre.add_song(self)
   end
 
-  def self.find_by_name(arg)
-    puts arg
+  def self.find_by_name(song_name)
+
   end
 
 end
