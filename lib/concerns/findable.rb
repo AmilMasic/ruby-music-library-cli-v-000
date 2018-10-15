@@ -2,7 +2,7 @@ module Concerns
 
 
   module Findable
-    
+
     def find_by_name(name)
       all.find do |v|
         v.name == name
@@ -14,6 +14,7 @@ module Concerns
     # binding.pry
     new_object = self.new
     new_object.name = name
+    new_object
     # save
     # new_song.name
   end
