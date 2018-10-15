@@ -47,9 +47,7 @@ class Song
   end
 
   def self.find_by_name(song_name)
-    @@all.select do |song|
-      if song.name == song_name
-      end
+    @@all.select(song_name)
     end
   end
 
