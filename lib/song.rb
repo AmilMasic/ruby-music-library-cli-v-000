@@ -71,7 +71,7 @@ class Song
     genre_name = (array[2].chomp(".mp3"))
     genre = Genre.find_or_create_by_name(genre_name)
     new_song = Song.new(title, artist, genre)
-    new_song.name =
+    # new_song.name =
   end
 
 end
