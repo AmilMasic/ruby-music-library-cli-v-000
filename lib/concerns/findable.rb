@@ -17,6 +17,7 @@ module Concerns
     # save
     self.new.tap do |o|
       o.name = name
+    end
   end
 
   def find_or_create_by_name(name)
