@@ -58,7 +58,7 @@ class Song
     # end
     self.find_by_name(song_name) unless self.find_by_name == nil
       self.save(song_name)
-    end
+    # end
   end
 
 end
