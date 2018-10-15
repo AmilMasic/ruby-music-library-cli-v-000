@@ -52,4 +52,10 @@ class Song
     end
   end
 
+  def self.find_or_create_by_name
+    if self.class.find_by_name == nil
+      song.save
+    end 
+      
+
 end
