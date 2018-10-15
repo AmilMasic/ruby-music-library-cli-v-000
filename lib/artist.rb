@@ -40,6 +40,9 @@ class Artist
     end
   end
 
+  def genres(arg)
+    puts arg
+
 
 
 end
