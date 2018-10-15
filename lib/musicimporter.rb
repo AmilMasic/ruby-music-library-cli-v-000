@@ -1,8 +1,7 @@
 require "pry"
 class MusicImporter
 
-  def initialize(argument)
-    binding.pry
-    puts argument
+  def initialize(path)
+
   end
 end
