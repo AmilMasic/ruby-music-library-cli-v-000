@@ -7,10 +7,10 @@ class MusicImporter
     @files = []
   end
 
-  def files
-    @path.each do |song|
-      @files << song
-    end
-    @files
-  end
+  # def files
+  #   @path.each do |song|
+  #     @files << song
+  #   end
+  #   @files
+  # end
 end
