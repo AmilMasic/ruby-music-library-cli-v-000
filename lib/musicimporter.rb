@@ -6,7 +6,8 @@ class MusicImporter
     @path = path
   end
 
-  def files
-
-  end
+  # def files
+  #   path.each do |song|
+  #
+  # end
 end
