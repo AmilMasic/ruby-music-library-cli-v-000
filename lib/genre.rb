@@ -44,7 +44,7 @@ class Genre
     end
   end
 
-  def artist
+  def artists
     @songs.map(&:artist)
   end
 
