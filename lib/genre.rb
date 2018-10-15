@@ -46,4 +46,6 @@ class Genre
 
   def artist
     @songs.map(&:artist)
+  end
+
 end
