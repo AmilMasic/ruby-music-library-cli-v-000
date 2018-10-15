@@ -8,7 +8,7 @@ module Concerns
         v.name == name
       end
     end
-  end
+
 
   # def create(name)
   #     # new_object = self.new
@@ -27,5 +27,5 @@ module Concerns
       self.find_by_name(name)
     end
   end
-
+end
 end
