@@ -44,6 +44,8 @@ class Artist
     @songs.map(&:genre).uniq
   end
 
+  extend Concerns::Findable
+
 
 
 end
