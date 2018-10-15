@@ -12,7 +12,7 @@ module Concerns
 
   def create(name)
     # binding.pry
-    new_object = Object.new(name)
+    new_object = Self.new(name)
     # save
     # new_song.name
   end
