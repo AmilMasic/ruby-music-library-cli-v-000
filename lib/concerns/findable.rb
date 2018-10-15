@@ -24,7 +24,7 @@ module Concerns
     if find_by_name(name)
        find_by_name(name)
     else
-      create_by_name(name)
+      create(name)
     end
   end
 
