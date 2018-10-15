@@ -10,7 +10,7 @@ module Concerns
     end
   end
 
-  def create(name)
+  def create_by_name(name)
     # binding.pry
     new_object = self.new
     new_object.name = name
@@ -23,7 +23,7 @@ module Concerns
     if find_by_name(name)
       find_by_name(name)
     else
-      create(name)
+      create_by_name(name)
     end
   end
 
