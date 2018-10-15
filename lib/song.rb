@@ -50,9 +50,8 @@ class Song
     @@all.select do |song|
       # song.name == song_name
       song_name == song.name
-      song.name
-
     end
+    song.name
   end
 
 end
