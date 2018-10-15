@@ -1,7 +1,7 @@
 require "pry"
 class MusicImporter
   attr_accessor :path
-  @@files = []
+  # @@files = []
   def initialize(path)
     # binding.pry
     @path = path
