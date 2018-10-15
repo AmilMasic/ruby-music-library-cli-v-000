@@ -60,4 +60,6 @@ class Song
     else
       self.create(song_name)
     end
+  end
+
 end
