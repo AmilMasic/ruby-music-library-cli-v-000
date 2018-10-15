@@ -40,8 +40,11 @@ class Artist
     end
   end
 
-  def genres(arg)
-    puts arg
+  def genres
+    @songs.map do |song|
+      song.genre
+    end
+  end
   end
 
 
