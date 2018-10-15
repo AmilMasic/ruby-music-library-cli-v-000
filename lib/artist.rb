@@ -1,5 +1,6 @@
 require "pry"
 class Artist
+  extend Concerns::Findable
   attr_accessor :name
 
   @@all = []
@@ -44,7 +45,7 @@ class Artist
     @songs.map(&:genre).uniq
   end
 
-  extend Concerns::Findable
+  
 
 
 
