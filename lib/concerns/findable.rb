@@ -11,12 +11,12 @@ module Concerns
   end
 
   def create_by_name(name)
-    # binding.pry
-    new_object = self.new
-    new_object.name = name
-    new_object
+      # new_object = self.new
+    # new_object.name = name
+    # new_object
     # save
-    # new_song.name
+    self.new.tap do |o|
+      o.name = name
   end
 
   def find_or_create_by_name(name)
