@@ -2,12 +2,20 @@ module Concerns
 
 
   module Findable
+
     def find_by_name(name)
       all.find do |v|
         v.name == name
       end
     end
   end
+
+  # def create(name)
+  #   # binding.pry
+  #   new_song = Song.new(song)
+  #   # save
+  #   # new_song.name
+  # end
 
   def find_or_create_by_name(name)
     if find_by_name(name)
