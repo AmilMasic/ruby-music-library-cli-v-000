@@ -9,7 +9,7 @@ class Genre
     # @@all << self
     save
   end
-  
+
   def songs
     @songs
   end
@@ -43,4 +43,7 @@ class Genre
       @songs << song
     end
   end
+
+  def artist
+    @songs.map(&:artist)
 end
